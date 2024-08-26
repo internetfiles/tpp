@@ -593,8 +593,8 @@ const Watch = () => {
             scrolling="no"
             src={
               type === "movie"
-                ? `${STREAM_URL_AGG}/embed/${id}`
-                : `${STREAM_URL_AGG}/embed/${id}/${season}/${episode}`
+                ? `$https://vid.braflix.win/embed/${id}`
+                : `$https://vid.braflix.win/embed/${id}/${season}/${episode}`
             }
             className={styles.iframe}
             allowFullScreen
